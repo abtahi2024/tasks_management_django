@@ -12,3 +12,6 @@ def abtahi(a):
 
 def show_specific_task(request,id):
     return HttpResponse("This is specific task")
+
+def show_admin(request):
+    return HttpResponse("This is admin")
