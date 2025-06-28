@@ -9,3 +9,6 @@ def show_task(request):
 
 def abtahi(a):
     return HttpResponse("<h1 style='color: red'>Abtahi</h1>")
+
+def show_specific_task(request,id):
+    return HttpResponse("This is specific task")
